@@ -1,26 +1,26 @@
 # Transcendence
 
-*This project has been created as part of the 42 curriculum by .*
+*This project has been created as part of the 42 curriculum by ecarvalh, lmaes, lvichi, rapcampo and rda-cunh.*
 
 ## Description
 
 Transcendence is a project at 42 School aimed at familiarizing students with web development by creating a complete fullstack framework.
 
+[Clearly presents the project, including its goal and a brief overview. The “Description” section should also contain a clear name for the project and its
+key features.]
 
+## Instructions
 
-# Transcendence - Project Manager Documentation 
+[section containing any relevant information about compilation, installation, and/or execution.]
 
-Documentation for the Project Manager Role, featuring a breakdown on the following:
+## Resources
 
-## Contents
+[section listing classic references related to the topic (documentation, articles, tutorials, etc.), as well as a description of how AI was used —
+specifying for which tasks and which parts of the project. The “Instructions” section should mention all the needed prerequisites (software,
+tools, versions, configuration like .env setup, etc.), and step-by-step instructions to
+run the project.]
 
-- [Assigned Roles](#assigned-roles)
-- [Team Meeting and Planned Sessions](#team-meetings-and-planned-sessions)
-  - [Tools](#tools)
-- [Proposed Project and Modules](#proposed-projet-and-modules)
-  - [Full Description of Modules](#full-description-of-modules)
-
-## Assigned Roles
+## Team Information
 
 - Ricardo Mendes - rda-cunh - Product Owner (PO) / Full-Stack Developer
 - Raphael Vieira - rapcampo - Project Manager (PM) / Backend Developer
@@ -28,9 +28,19 @@ Documentation for the Project Manager Role, featuring a breakdown on the followi
 - Erik Lustosa - ecarvalh - Front End Lead
 - Leonardo Maes - lmaes - Data Science Engineer
 
-## Team meeting and Planned sessions
+[Add a Brief description of responsibilities.]
 
-Scheduled meetings and planned sessions:
+### Marketplace Platform Description
+
+**Marketplace Platform**: Buy and sell items, with user ratings, messaging, pay-
+ment integration, and search functionality.
+- Suggested modules: User interaction, File upload, Advanced search, Recom-
+mendation system, Public API
+- Point potential: 14+ points
+
+## Project Management
+
+### Scheduled meetings and planned sessions:
 
 | Date | Topic |
 | --- | --- |
@@ -47,7 +57,42 @@ Scheduled meetings and planned sessions:
 - **Code Review**: Github PRs
 - **Containerization Solution**: Docker
 
-## Proposed Project and Modules
+[How the team organized the work (task distribution, meetings, etc.).
+◦ Tools used for project management (GitHub Issues, Trello, etc.).
+◦ Communication channels used (Discord, Slack, etc.).]
+
+## Technical Stack
+
+[Frontend technologies and frameworks used.
+◦ Backend technologies and frameworks used.
+◦ Database system and why it was chosen.
+◦ Any other significant technologies or libraries.
+◦ Justification for major technical choices.]
+
+
+## Database Schema
+
+[◦ Visual representation or description of the database structure.
+◦ Tables/collections and their relationships.
+◦ Key fields and data types.]
+
+## Features List
+
+[◦ Complete list of implemented features.
+◦ Which team member(s) worked on each feature.
+◦ Brief description of each feature’s functionality.]
+
+## Modules
+
+### Marketplace Platform Description
+
+**Marketplace Platform**: Buy and sell items, with user ratings, messaging, pay-
+ment integration, and search functionality.
+- Suggested modules: User interaction, File upload, Advanced search, Recom-
+mendation system, Public API
+- Point potential: 14+ points
+
+### Proposed Project and Modules
 
 Points will be calculated based on decided modules as x/y (read as x points out of y maximum for all modules we have on possible implementation). 
 
@@ -68,14 +113,6 @@ Points will be calculated based on decided modules as x/y (read as x points out 
 | [AI Minor 1](#ai-minor-1) | Content Moderation AI | Low | 1 | 15 |
 | [DevOps Major 1](#devops-major-1) | Infrastruct for log management using ELK | Low | 2 | 18 |
 | Total | 15-16 (High and Medium priority only) / 23 |
-
-### Marketplace Platform Description
-
-**Marketplace Platform**: Buy and sell items, with user ratings, messaging, pay-
-ment integration, and search functionality.
-- Suggested modules: User interaction, File upload, Advanced search, Recom-
-mendation system, Public API
-- Point potential: 14+ points
 
 ### Full Description of Modules
 
@@ -188,3 +225,20 @@ Kibana).
 - Must still demonstrate technical skill and creativity.
 - Should add meaningful value to your project.
 - Requires justification in README.md (similar to Major, but for 1 point).
+
+[◦ List of all chosen modules (Major and Minor).
+◦ Point calculation (Major = 2pts, Minor = 1pt).
+◦ Justification for each module choice, especially for custom "Modules of
+choice".
+◦ How each module was implemented.
+◦ Which team member(s) worked on each module.]
+
+## Individual Contributions
+
+[◦ Detailed breakdown of what each team member contributed.
+◦ Specific features, modules, or components implemented by each person.
+◦ Any challenges faced and how they were overcome.]
+
+
+
+
