@@ -1,4 +1,4 @@
-FROM node:20-alpine
+FROM node:24-alpine
 
 WORKDIR /app
 
@@ -7,7 +7,6 @@ RUN npm ci
 
 COPY . .
 
-EXPOSE 5173
-EXPOSE 24678
+EXPOSE 5173 24678
 
 CMD ["npm", "run", "dev"]
