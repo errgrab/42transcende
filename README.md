@@ -30,14 +30,6 @@ run the project.]
 
 [Add a Brief description of responsibilities.]
 
-### Marketplace Platform Description
-
-**Marketplace Platform**: Buy and sell items, with user ratings, messaging, pay-
-ment integration, and search functionality.
-- Suggested modules: User interaction, File upload, Advanced search, Recom-
-mendation system, Public API
-- Point potential: 14+ points
-
 ## Project Management
 
 ### Scheduled meetings and planned sessions:
@@ -52,8 +44,8 @@ mendation system, Public API
 ### Tools
 
 - **Meetings**: Weekly, with sprints Agile structure
-- **Communication**: Discord, WhatApp
-- **Task Organization**: Github Issues, Independant Documentation
+- **Communication**: Discord (main channel), WhatsApp
+- **Project Management & Task Organization**: Github Projects (kanban), Github Issues, Independant Documentation
 - **Code Review**: Github PRs
 - **Containerization Solution**: Docker
 
@@ -62,6 +54,14 @@ mendation system, Public API
 ◦ Communication channels used (Discord, Slack, etc.).]
 
 ## Technical Stack
+
+Frontend Technologies: React/ Vite
+Backend Technologies: Node.js / NestJS / Python (to confirm with rapcampo?)
+Database System: PostgreSQL, docker volume (to confirm with lmaes?)
+VM + Containers: Dibian Linux + Openbox simple VM + Docker (containers)
+Entry Point: nginx (container)
+API REST for internal comunication
+
 
 [Frontend technologies and frameworks used.
 ◦ Backend technologies and frameworks used.
@@ -84,17 +84,11 @@ mendation system, Public API
 
 ## Modules
 
-### Marketplace Platform Description
+### Marketplace Platform Description (From Subject)
 
-**Marketplace Platform**: Buy and sell items, with user ratings, messaging, pay-
-ment integration, and search functionality.
-- Suggested modules: User interaction, File upload, Advanced search, Recom-
-mendation system, Public API
+**Marketplace Platform**: Buy and sell items, with user ratings, messaging, payment integration, and search functionality.
+- Suggested modules: User interaction, File upload, Advanced search, Recom-mendation system, Public API
 - Point potential: 14+ points
-
-### Proposed Project and Modules
-
-Points will be calculated based on decided modules as x/y (read as “x points out of y maximum for all modules we consider for possible implementation”).
 
 ### Proposed Project and Modules
 
@@ -125,10 +119,10 @@ These modules are candidates for later sprints or for replacing riskier modules 
 | --- | --- | --- | --- | --- |
 | [Web Major 3](#web-major-3) | Allow users to interact with each other (chat, profiles, friends) | Optional | 2 | 12 |
 | [Web Major 4](#web-major-4) | Public API with secured access, rate limiting, and documentation | Optional | 2 | 12 |
-| [Web Minor 9](#web-minor-9) | Advanced search with filters, sorting, and pagination | Optional | 1 | 12 |
-| [User Minor 2](#user-minor-2) | Implement remote authentication with OAuth 2.0 (Google, GitHub, 42) | Low | 1 | 14 |
-| [User Minor 4](#user-minor-4) | User activity analytics and insights dashboard | Low | 1 | 14 |
-| [AI Minor 1](#ai-minor-1) | Content moderation AI (auto‑flagging shaders and reviews) | Low | 1 | 15 |
+| [Web Minor 9](#web-minor-9) | Advanced search with filters, sorting, and pagination | Optional | 1 | 13 |
+| [User Minor 2](#user-minor-2) | Implement remote authentication with OAuth 2.0 (Google, GitHub, 42) | Optional | 1 | 14 |
+| [User Minor 4](#user-minor-4) | User activity analytics and insights dashboard | Optional | 1 | 14 |
+| [AI Minor 1](#ai-minor-1) | Content moderation AI (auto‑flagging shaders and reviews) | Optional | 1 | 15 |
 
 ### Full Description of Modules
 
